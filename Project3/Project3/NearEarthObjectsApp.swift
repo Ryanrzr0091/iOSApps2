@@ -1,1 +1,11 @@
-import SwiftUI@mainstruct NearEarthObjectsApp: App {    var body: some Scene {        WindowGroup {            NEOListView()                .preferredColorScheme(.dark)        }    }}
+import SwiftUI
+
+@main
+struct NearEarthObjectsApp: App {
+    var body: some Scene {
+        WindowGroup {
+            NEOListView()
+                .preferredColorScheme(.dark)
+        }
+    }
+}
